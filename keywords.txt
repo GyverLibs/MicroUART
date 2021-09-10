@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map For MicroUART
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MicroUART	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+MU_serialEvent	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MU_TX_BUF	LITERAL1
+MU_RX_BUF	LITERAL1
+MU_STREAM	LITERAL1
+MU_PRINT	LITERAL1
