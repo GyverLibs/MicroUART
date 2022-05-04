@@ -1,3 +1,5 @@
+This is an automatic translation, may be incorrect in some places. See sources and examples!
+
 # MicroUART
 Lightweight UART implementation for ATmega328 and similar from this generation
 - Complete analogue of Serial
