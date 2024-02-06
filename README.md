@@ -94,6 +94,7 @@ void MU_serialEvent() {
 <a id="versions"></a>
 ## Версии
 - v1.0
+- v1.0.1 - мелкие фиксы
 
 <a id="feedback"></a>
 ## Баги и обратная связь
