@@ -84,7 +84,7 @@ class MicroUART
 #if defined(MU_STREAM) || defined(MU_PRINT)
     virtual size_t
 #else
-    void
+    size_t
 #endif
     write(uint8_t data) {
 #if (MU_TX_BUF > 0)                             // если есть буфер на отправку
