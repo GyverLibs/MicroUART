@@ -93,11 +93,11 @@ class MicroUART
         _bufTX[_headTX] = data;   // пишем в буфер
         _headTX = i;              // двигаем
         UCSR0B |= (1 << UDRIE0);  // на отправку
-        return 1;
 #else                             // нет буфера
         while (!(UCSR0A & (1 << UDRE0)));   // ждём отправку
         UDR0 = data;                        // пишем
 #endif
+        return 1;
     }
 
     size_t write(const uint8_t *buffer, size_t size) {
